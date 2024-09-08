@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-left {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(36, 223, 36); /* Dark green color */
+}
+
+.navbar-right a {
+    margin-left: 15px;
+    font-size: 16px;
+    color:rgb(36, 223, 36); /* Dark green color */
+    text-decoration: none;
+    transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+.navbar-right a:hover {
+    color:rgb(7, 156, 7); /* Slightly darker green on hover */
+    font-weight: bold;
+}
+
+/* Course List Styles */
+.course-page {
+    padding-top: 70px; /* Reduced padding to bring content closer to the navbar */
+    text-align: center;
+}
+
+.course-list h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+/* Course Card Styles */
+
+/* .course-grid{
+    margin-top: 100px;
+} */
+/* .course-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+    max-width: 280px;
+    overflow: hidden;
+}
+
+.course-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.course-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #1e8449; /* Dark green for titles */
+
+
+.course-card p {
+    font-size: 16px;
+    color: #777;
+}
+
+.course-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+} 
+
+

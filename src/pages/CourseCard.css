@@ -1,0 +1,74 @@
+.course-card {
+    background-color: #ffffff; /* White background */
+    border-radius: 12px; /* Slightly larger border radius for a smoother appearance */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slightly deeper shadow */
+    padding: 20px; /* Increased padding for better spacing */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+    max-width: 280px; /* Slightly wider for a balanced look */
+    overflow: hidden; /* Ensures no overflow from content */
+}
+
+.course-card:hover {
+    transform: translateY(-8px); /* Increased lift on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover for a more dynamic effect */
+}
+
+.course-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover; /* Ensures image maintains aspect ratio */
+}
+
+.course-details {
+    padding: 16px 0; /* Adjusted padding for balanced spacing */
+}
+
+.course-title {
+    font-size: 22px; /* Slightly larger font size */
+    font-weight: 600; /* Increased font weight for better emphasis */
+    color: #2c3e50; /* Dark slate gray for strong contrast on white */
+    margin-bottom: 10px;
+}
+
+.course-rating,
+.course-level {
+    font-size: 16px;
+    color: #34495e; /* Medium gray for clear contrast */
+    margin-bottom: 4px;
+}
+
+.course-rating {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.course-rating i {
+    color: #f1c40f; /* Gold color for rating stars */
+    margin-right: 4px;
+}
+
+.course-level {
+    font-style: italic; /* Italics for a more refined text appearance */
+    color: #7f8c8d; /* Lighter gray for subtle emphasis */
+}
+
+/* Optional: Add a button for enrolling or more details */
+.course-button {
+    background-color: #1e8449; /* Slightly dark green button for a call to action */
+    color: #ffffff; /* White text for strong contrast */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.course-button:hover {
+    background-color: #27ae60; /* Lighter green on hover */
+}
